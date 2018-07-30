@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mvvm_map_new</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyDfsAmjvQlRS6dowE843FWA9NfFzO8m9Hc</string>
+    <string name="action_search">Search</string>
+</resources>

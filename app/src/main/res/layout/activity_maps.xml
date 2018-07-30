@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainactivity"
+    tools:context=".view.MapsActivity">
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        tools:context=".view.MapsActivity">
+
+
+    </fragment>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_settings"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="23dp"
+        android:elevation="6dp"
+        android:src="@drawable/ic_settings_black_24dp"
+        app:backgroundTint="@color/colorAccent"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="432dp"
+        android:clickable="true" />
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+</RelativeLayout>
